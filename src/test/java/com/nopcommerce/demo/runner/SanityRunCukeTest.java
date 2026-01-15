@@ -11,8 +11,8 @@ import io.cucumber.testng.CucumberOptions;
         glue = "com/nopcommerce/demo/steps",
         plugin = {"html:target/cucumber-reports/cucumber.html",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
-        tags = "@Register"
+        tags = "@sanity"
 )
-public class RunCukeTest extends AbstractTestNGCucumberTests {
+public class SanityRunCukeTest extends AbstractTestNGCucumberTests {
 
 }
